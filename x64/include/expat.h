@@ -775,7 +775,7 @@ XML_GetAttributeInfo(XML_Parser parser);
    values.
 */
 XMLPARSEAPI(enum XML_Status)
-XML_Parse(XML_Parser parser, const char *s, int len, int isFinal);
+XML_Parse(XML_Parser parser, const char *s, size_t len, int isFinal);
 
 XMLPARSEAPI(void *)
 XML_GetBuffer(XML_Parser parser, int len);
